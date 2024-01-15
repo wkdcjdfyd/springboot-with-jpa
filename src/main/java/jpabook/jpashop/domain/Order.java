@@ -41,7 +41,7 @@ public class Order {
 
     public void addOrderItems(OrderItem orderItem){
         this.orderItems.add(orderItem);
-        orderItem.setorder(this)
+        orderItem.setOrder(this);
     }
 
     public void setDelivery(Delivery delivery){
